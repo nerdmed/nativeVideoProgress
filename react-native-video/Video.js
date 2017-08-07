@@ -60,7 +60,7 @@ export default class Video extends Component {
 
   _onProgress = (event) => {
     if (this.props.onProgress) {
-      this.props.onProgress(event.nativeEvent);
+      this.props.onProgress(event);
     }
   };
 

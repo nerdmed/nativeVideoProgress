@@ -12,6 +12,8 @@ import {
   View
 } from 'react-native';
 
+const AUDIO_URL = "https://cdn.flowkey.com/mp3/121/0079_2014-08-27_18-08-80/1461508773163.mp3";
+
 export default class VideoNativeProgress extends Component {
   render() {
     return (
